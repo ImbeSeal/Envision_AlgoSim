@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Ubuntu&display=swap');
+html, body {
+  margin: 0;
+  background-color: #293462;
+}
+
+canvas {
+  display: block;
+}
+
+* {
+  margin: 0;
+  border: 0;
+}
+
+header {
+  background-color: black;
+  color: green;
+  height: 70px;
+  width: 100%;
+  padding: 16px;
+  margin: 0 auto;
+  font-size: 50px;
+  display: block;
+}
+
+.title {
+  padding:0 130px;
+  display: flex;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+body {
+  background-color: #293462;
+}
+
+body::-webkit-scrollbar {
+  display: none;
+}
+
+.gs {
+  padding: 0px 20px;
+}
+
+.gs button{
+  background-color: black;
+  border-color: green;
+  border-radius: 25px;
+  border: 2px solid green;
+  color: green;
+  font-size: 20px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  margin: 12px;
+}
+
+.gs button:hover {
+  background-color: green;
+  color: black;
+}
+
+.hs {
+  padding: 0px 20px;
+}
+
+.hs button #1:active {
+  background-color: green;
+  color: black;
+}
+.hs button #2:active {
+  background-color: green;
+  color: black;
+}
+.hs button #3:active {
+  background-color: green;
+  color: black;
+}
+
+.hs button:hover {
+  background-color: green;
+  color: black;
+}
+
+.hs button{
+  border: 2px solid green;
+  border-color: green;
+  border-radius: 25px;
+  background-color: black;
+  color: green;
+  margin: 12px;
+  font-size: 20px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+}
+
+/* footer {
+  height: 35vh;
+  padding-top: 88vh;
+  padding-bottom: 0;
+  text-align: center;
+  background-color: black;
+  color: green;
+} */
+
+body {
+  background-color: #293462;
+}

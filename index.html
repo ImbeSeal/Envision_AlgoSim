@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sorting Visualizer</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+
+<body>
+    <header>
+        <table class="head_elem">
+            <tr>
+                <td class="title">Sorting Visualizer</td>
+                <td class="gs">
+                    <button onclick="gen()" >Generate Array</button>
+                    <button onclick="pause_play()" >Pause/Play</button>
+                </td>
+                <td class="hs">
+                    <button onclick="bubbleSort()" id="1">Bubble Sort</button>
+                    <button onclick="selectionSort()" id="2">Selection Sort</button>
+                    <button onclick="insertionSort()" id="3">Insertion Sort</button>
+                </td>
+            </tr>
+            <tr></tr>
+        </table>
+    </header>
+    
+    <script src="https://cdn.jsdelivr.net/npm/p5@1.4.1/lib/p5.js"></script>
+    <script src="sketch.js"></script>
+
+</body>
+
+</html>
